@@ -20,3 +20,10 @@ int main() {
     printf("最大的数是：%d\n", max);
     return 0;
 }
+
+//一个更简洁但逻辑性能强的比较方法
+void compare_three_number(int a,b,c)
+{
+return a>b?(a>c?a:c):(b>c?b:c)
+}
+
